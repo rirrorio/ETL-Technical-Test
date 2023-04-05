@@ -2,7 +2,7 @@
   {
     "id" : 1,
     "name": "Noir OLV75",
-    "type": "prebuilt",
+    "type": "Prebuilt",
     "description": "Featuring south facing hotswap PCB, JWK ultimate black switch with 62g actuation point,  and triple connection mode, the Noir OLV75 is one of the best prebuilts out there",
     "price": 1450000,
     "imageUrl1": "https://cdn.shopify.com/s/files/1/0506/2741/2156/products/OLIVE75-6low_1024x1024@2x.jpg?v=1641444947",
@@ -12,7 +12,7 @@
   {
     "id" : 2,
     "name": "Rexus Daxa M64 Classic",
-    "type": "prebuilt",
+    "type": "Prebuilt",
     "description": "Featuring south facing hotswap PCB, gateron yellow switch with 55g actuation, and usb type c detachable, the Rexus Daxa M64 classic is a budget killer prebuilt. Sold in grey color",
     "price": 750000,
     "imageUrl1": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/2/10/8d343d19-ccad-4442-a6cb-c371065030e0.jpg",
@@ -22,7 +22,7 @@
   {
     "id" : 3,
     "name": "Fantech Maxfit67",
-    "type": "prebuilt",
+    "type": "Prebuilt",
     "description": "Featuring south facing hotswap PCB, gateron yellow switch with 55g actuation, usb type c detachable, and really good stabilizer tuning out of the box, the maxfit is something that you dont have to tinker with out of the box and it will still compete with the big boys out there",
     "price": 1250000,
     "imageUrl1": "https://www.techpowerup.com/review/fantech-maxfit67-rgb/images/keyboard-1.jpg",
@@ -33,7 +33,7 @@
   {
     "id" : 4,
     "name": "Keychron V1",  
-    "type": "prebuilt",
+    "type": "Prebuilt",
     "description": "This budget version of the Q1, but wow does it not feel like that. Featuring keychron own red switch with 45g of actuation, doubel shot OSA profile keycaps, and southfacing pcb, surely the keychron V1 is not something to be underestimate.",
     "price": 1700000,
     "imageUrl1": "https://cdn.shopify.com/s/files/1/0059/0630/1017/t/5/assets/keychronv1custommechanicalkeyboard2-1657168313809.jpg?v=1657168321",
@@ -43,7 +43,7 @@
   {
     "id" : 5,
     "name": "Keyhron Q1",
-    "type": "prebuilt",
+    "type": "Prebuilt",
     "description": "Gasket, gasket, gasket!. Being the only gasket option on our prebuilt lineup and equipped with gateron yellow switch, the keychron Q1 is one of a teeny tiny population of solid, enthusiast level prebuilt out there",
     "price": 2800000,
     "imageUrl1": "https://ae01.alicdn.com/kf/H19b23c33870643699f10b4682c74e006o/Keychron-Q1-QMK-Keyboard-Mekanis-Kustom-75-Barebone-ISO-Layout-Type-c-Keyboard-Berkabel-untuk-Mac.jpg",
@@ -67,7 +67,7 @@
     "description": "The zoom65 is taking the market by the storm! hurry and grab it fast while it last! no keycaps and switch included, it is a barebone after all",
     "price": 2400000,
     "imageUrl1": "https://cdn.shopify.com/s/files/1/0238/7342/1376/products/ZOOM65-Black.jpg?v=1649232801",
-    "imageUrl2": "https://cdn.shopify.com/s/files/1/0607/2474/0287/products/Zoom65_Black_GMKWoB_600x600.jpg?v=1649126779",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0607/2474/0287/products/ZOOM65_19db3da9-483f-4cd8-ba1b-81d40c1481c7_600x600.jpg?v=1649002460",
     "videolink": "https://www.youtube.com/watch?v=6dB6CjzHhLQ&ab_channel=%3A3ildcat"
   },
   {
@@ -157,7 +157,7 @@
     "description": "Ahhh. The exotics. Who wouldn't love them, right? Linear and have 67g of actuation. Sold in Packs of 90 ",
     "price": 1215000,
     "imageUrl1": "http://cdn.shopify.com/s/files/1/0068/3599/4706/products/DSC01892_1200x1200.jpg?v=1657606095",
-    "imageUrl2": "https://cdn.shopify.com/s/files/1/0627/0759/7529/products/22sfgweo1w171_1060x.jpg?v=1648437898",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0517/0482/3974/products/67g_1920x1080_3cdc9741-9416-4432-81d7-602b992f6c70.jpg?v=1667364734",
     "videolink": "https://www.youtube.com/watch?v=YEyU3wi1dOU&ab_channel=nearLucid"
   },
   {
@@ -269,25 +269,5 @@
     "imageUrl1": "https://ucarecdn.com/aeebb0a3-e12b-4bd6-99f8-4b8b2f7fddf1~1/nth/0/-/format/auto/-/quality/lighter/",
     "imageUrl2": "https://preview.redd.it/5ks1s3mq6eg71.jpg?auto=webp&s=b771007687d9f132778861d14ffbd961e5be94b3",
     "videolink": "https://www.youtube.com/watch?v=MHox6_sgj9U&ab_channel=LubeHaiNhoi"
-  },
-  {
-    "id" : 28,
-    "name": "Lubing Kit",
-    "type": "addon",
-    "description": "yea cant tell much about this. its a brush, stem holder, keycap puller, switch puller, and the lube itself",
-    "price": 150000,
-    "imageUrl1": "https://m.media-amazon.com/images/I/41UjQb62H9L._SX425_.jpg",
-    "imageUrl2": "https://m.media-amazon.com/images/I/41UjQb62H9L._SX425_.jpg",
-    "videolink": " "
-  },
-  {
-    "id" : 29,
-    "name": "KBDFans Switch Opener",
-    "type": "addon",
-    "description": "Aluminium switch opener",
-    "price": 100000,
-    "imageUrl1": "https://cdn.shopify.com/s/files/1/1473/3902/files/QQ_20181231091555.jpg?v=1546218970",
-    "imageUrl2": "https://preview.redd.it/20dsiz4j36m21.jpg?auto=webp&s=f66ad19f5ec134af06d19bb6b2b7a17e6370050b",
-    "videolink": " "
   }
 ]
