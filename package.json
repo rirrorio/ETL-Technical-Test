@@ -1,0 +1,20 @@
+{
+  "name": "etl-technical-test",
+  "version": "1.0.0",
+  "description": "Technical Test for ETL, a single webpage using HTML, CSS, and Vanilla Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rirrorio/ETL-Technical-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rirrorio/ETL-Technical-Test/issues"
+  },
+  "homepage": "https://github.com/rirrorio/ETL-Technical-Test#readme"
+}
