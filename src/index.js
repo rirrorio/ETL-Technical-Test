@@ -151,15 +151,75 @@ const data = [
     videolink:
       "https://www.youtube.com/watch?v=6baEn59H81E&ab_channel=CrankyTechID",
   },
+  {
+    "id" : 12,
+    "name": "Gateron  yellow",
+    "type": "switch",
+    "description": "All time budget favorite. Linear and have 55g of actuation.",
+    "price": 270000,
+    "imageUrl1": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/9/17/c228654f-3a1b-47b6-a1fb-4053af9873bb.jpg",
+    "imageUrl2": "https://rexus.id/wp-content/uploads/2021/01/gateron-yellow.png",
+    "videolink": "https://www.youtube.com/watch?v=qd6Eo96P0Ew&t=63s&ab_channel=HamajiNeo"
+  },
+  {
+    "id" : 13,
+    "name": "Gateron Ink Black V2",
+    "type": "switch",
+    "description": "Factory lubed so you dont have to do it yourself. Linear and have 60g of actuation.",
+    "price": 1035000,
+    "imageUrl1": "https://cdn.shopify.com/s/files/1/0275/3649/0561/products/gateron-ink-switches-v2-550646.jpg?v=1635297021",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0280/3931/5529/products/aq4.jpg?v=1616745336",
+    "videolink": "https://www.youtube.com/watch?v=qdFvG6ZG9no&ab_channel=headtr1p"
+  },
+  {
+    "id" : 14,
+    "name": "Gazzew Boba U4T",
+    "type": "switch",
+    "description": "THOCK KING! Tactile and have 62g of actuation.",
+    "price": 810000,
+    "imageUrl1": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/4/24/e3c0f598-7576-4187-ab59-9919521c9c1d.jpg",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0227/9171/6941/products/U4THero_1050x700.jpg?v=1615595826",
+    "videolink": "https://www.youtube.com/watch?v=zb7tm7zyCQY&ab_channel=headtr1p"
+  },
+  {
+    "id" : 15,
+    "name": "Glorious Holy Panda",
+    "type": "switch",
+    "description": "it is glorious. no, not making a pun from its name. it. is. glorious.Tactile and have 65g of actuation.",
+    "price": 830000,
+    "imageUrl1": "https://cdn11.bigcommerce.com/s-up92fzossx/images/stencil/1280x1280/products/230/601/Glorious_Panda_1__88181.1607730576.jpg?c=1",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0549/2681/products/front_1000x.png?v=1599234810",
+    "videolink": "https://www.youtube.com/watch?v=aUzc6mnFh4U&ab_channel=%3A3ildcat"
+  },
+  {
+    "id" : 16,
+    "name": "C3 Tangerine Dark",
+    "type": "switch",
+    "description": "Ahhh. The exotics. Who wouldn't love them, right? Linear and have 67g of actuation. ",
+    "price": 1215000,
+    "imageUrl1": "http://cdn.shopify.com/s/files/1/0068/3599/4706/products/DSC01892_1200x1200.jpg?v=1657606095",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/0517/0482/3974/products/67g_1920x1080_3cdc9741-9416-4432-81d7-602b992f6c70.jpg?v=1667364734",
+    "videolink": "https://www.youtube.com/watch?v=YEyU3wi1dOU&ab_channel=nearLucid"
+  },
+  {
+    "id" : 17,
+    "name": "Kailh x Novelkeys Sherbet",
+    "type": "switch",
+    "description": "The ONLY clicky options from us. For you guys out there who likes it loud. And hated by your coworkers/family/roomate/gf. Clicky and have 50g of actuation. ",
+    "price": 615000,
+    "imageUrl1": "https://lzd-img-global.slatic.net/g/p/642bcd1335a2d7cd91edadc011d2616d.jpg_2200x2200q80.jpg_.webp",
+    "imageUrl2": "https://cdn.shopify.com/s/files/1/3099/8088/products/Kailh_Sherbet_1024x1024@2x.jpg?v=1630595983",
+    "videolink": "https://www.youtube.com/watch?v=5r1v9MPxxQ8&ab_channel=Preston%27sThoughts"
+  },
 ];
 
-let htmlCode = "";
+let productCode = "";
 
 for (let i = 0; i < data.length; i++) {
-  htmlCode =
-    htmlCode +
+  if(data[i].type!="switch")
+ productCode =
+   productCode +
     `
-    <div class="column">
     <div class="card">
     <img src="${data[i].imageUrl1}" class="card-img-top" alt="...">
     <div class="card-body">
@@ -170,10 +230,30 @@ for (let i = 0; i < data.length; i++) {
     <button type="button" class="btn btn-light"><a href="${data[i].videolink}" style="text-decoration:none; color:black" target="_blank">Full Product Review</a></button>
     </div>
     </div>
-    </div>
     `;
 }
 
-const productCards = document.querySelector(".allProductCards");
+let switchCode =""
+for (let i = 0; i < data.length; i++) {
+  if(data[i].type==="switch")
+  switchCode =
+    switchCode +
+     `
+     <div class="card">
+     <img src="${data[i].imageUrl1}" class="card-img-top" alt="...">
+     <div class="card-body">
+     <h4 class="card-title">${data[i].name}</h4>
+     <p class="card-text">${data[i].description}</p>
+     <p class="card-text"><b>Price</b>: Rp. ${data[i].price}</p>
+     <button type="button" class="btn btn-light"><a href="${data[i].videolink}" style="text-decoration:none; color:black" target="_blank">Full Product Review</a></button>
+     </div>
+     </div>
+     `;
+ }
 
-productCards.innerHTML = htmlCode;
+const productCards = document.querySelector(".allProductCards");
+const switchCards = document.querySelector(".switchCards")
+
+
+productCards.innerHTML = productCode;
+switchCards.innerHTML=switchCode
